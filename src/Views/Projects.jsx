@@ -1,5 +1,5 @@
 import React from 'react'
-import GoogleFontLoader from 'react-google-font-loader';
+import GoogleFontLoader from 'react-font-loader';
 import { Link } from 'react-router-dom';
 import { IoMdHome } from "react-icons/io";
 

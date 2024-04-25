@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsArrowRightCircle } from "react-icons/bs";
-import GoogleFontLoader from 'react-google-font-loader';
+import GoogleFontLoader from 'react-font-loader';
 import { GrInstagram } from "react-icons/gr";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";

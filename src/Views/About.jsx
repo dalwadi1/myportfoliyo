@@ -1,5 +1,5 @@
 import React from 'react'
-import GoogleFontLoader from 'react-google-font-loader';
+import GoogleFontLoader from 'react-font-loader';
 import { FaGripfire } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
