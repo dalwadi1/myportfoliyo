@@ -1,5 +1,4 @@
 import React from 'react'
-import GoogleFontLoader from 'react-font-loader';
 import { FaGripfire } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
@@ -13,18 +12,13 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { Link } from 'react-router-dom';
 import { IoLogoJavascript } from "react-icons/io5";
+import ReactFontLoader from 'react-font-loader';
 
 const About = () => {
     return (
         <>
-            <GoogleFontLoader
-                fonts={[
-                    {
-                        font: 'Josefin Sans',
-                        weights: [400, 700],
-                    },
-                ]}
-            />
+            <ReactFontLoader url='https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap' />
+
             <div className='h-full w-full bg-black'>
                 <div className='container mx-auto text-white md:sticky top-5'>
                     <h1 className='text-center text-3xl cursor-pointer' style={{ fontFamily: 'Josefin Sans' }}>About <span className='text-orange-500'>Me!</span></h1>

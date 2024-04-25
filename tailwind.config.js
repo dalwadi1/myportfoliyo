@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
+    },
+    screens: {
+      'xs': '320px',
+      'sm': '576px', // Custom small breakpoint
+      'md': '768px',
+      'lg': '992px', // Custom large breakpoint
+      'xl': '1200px',
+      '2xl': '1400px', // Custom extra-large breakpoint
+    },
   },
   plugins: [],
 }

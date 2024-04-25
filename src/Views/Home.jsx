@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsArrowRightCircle } from "react-icons/bs";
-import GoogleFontLoader from 'react-font-loader';
+import ReactFontLoader from 'react-font-loader';
 import { GrInstagram } from "react-icons/gr";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -10,19 +10,11 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
-            <GoogleFontLoader
-                fonts={[
-                    {
-                        font: 'Josefin Sans',
-                        weights: [400, 700],
-                    },
-                ]}
-            />
+            <ReactFontLoader url='https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap' />
             <div className='h-screen w-full bg-black '>
                 <div className='flex items-center justify-center h-screen'>
                     <div className='flex-col md:container mx-auto items-center text-white'>
                         <h1 className='md:text-6xl xs:text-4xl text-center md:flex md:items-center md:justify-center' style={{ fontFamily: 'Josefin Sans' }}>hey there! <h2 className='text-orange-500 hover:text-red-900 cursor-pointer'>I'm Dalwadi</h2></h1>
-                        <h1 className='mt-2 md:container mx-auto md:w-96 xs:w-screen xs:text-center xs:text-sm md:text-xl'>Hello, my name is Rutvik Parmar currently i'm building a full stack web sites.</h1>
                         <div className='flex mt-2 items-center justify-center xs:text-sm'>
                             <h1 className='mt-2 mr-2'>Follow me:</h1>
                             <Link to='https://github.com/dalwadi1'><FaGithub fontSize={32} className='mt-2 cursor-pointer hover:bg-orange-500 rounded-lg p-1 hover:text-black' /></Link>
