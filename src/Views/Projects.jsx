@@ -1,5 +1,5 @@
 import React from 'react'
-import GoogleFontLoader from 'react-font-loader';
+import ReactFontLoader from 'react-font-loader';
 import { Link } from 'react-router-dom';
 import { IoMdHome } from "react-icons/io";
 
@@ -10,14 +10,8 @@ const Projects = () => {
 
     return (
         <>
-            <GoogleFontLoader
-                fonts={[
-                    {
-                        font: 'Josefin Sans',
-                        weights: [400, 700],
-                    },
-                ]}
-            />
+            <ReactFontLoader url='https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap' />
+
             <div className='h-full w-full bg-black'>
                 <div className="container mx-auto flex sticky top-5 items-center justify-between">
                     <h1 className='text-white md:text-3xl cursor-pointer xs:text-sm text-center' style={{ fontFamily: 'Josefin Sans' }}>My <span className='text-orange-500'>Projects!</span></h1>
