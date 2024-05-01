@@ -16,7 +16,7 @@ const Home = () => {
                 <div className='flex items-center justify-center h-screen'>
                     <div className='flex-col md:container justify-center mx-auto items-center text-white'>
                         {/* <img src="./images/Rutvik4.png" className='rounded-full container mx-auto w-52 h-52' alt="" /> */}
-                        <h1 className='md:text-6xl xs:text-4xl text-center md:flex md:items-center md:justify-center -mt-1' style={{ fontFamily: 'Josefin Sans' }}>hey there! <span className='text-orange-500 hover:text-red-900 cursor-pointer'>I'm Dalwadi</span></h1>
+                        <h1 className='md:text-6xl xs:text-4xl text-center md:flex md:items-center md:justify-center -mt-1' style={{ fontFamily: 'Josefin Sans' }}>Hii there! <span className='text-orange-500 hover:text-red-900 cursor-pointer'>I'm Dalwadi</span></h1>
                         <h1 className="mt-2 md:container mx-auto xs:w-screen xs:text-center xs:text-sm md:text-xl">Certainly! Here's a concise and effective summary tailored for a <span className='text-orange-500
                         '>fresh web developer</span> <br className='xs:hidden md:block' /> who is focused on building and managing websites and web applications:</h1>
                         <div className='flex mt-2 items-center justify-center xs:text-sm'>
