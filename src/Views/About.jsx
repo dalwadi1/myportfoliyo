@@ -48,7 +48,7 @@ const About = () => {
                                     <h1 className='mt-2 lg:text-sm text-xs flex justify-start'><FaLongArrowAltRight fontSize={15} className='ml-2 text-md' />Currently i am pursuing master degree of MCA from VNSGU University.</h1>
                                 </div>
                             </Tab>
-                            <Tab eventKey="profile " title="Contact info" className='md:w-60 mt-5 lg:w-96'>
+                            <Tab eventKey="profile " title="Contact" className='md:w-60 mt-5 lg:w-96'>
                                 <h1 className='mt-2 items-center lg:text-sm text-xs flex justify-center text-start'><IoMail fontSize={15} className='mr-1 text-red-600' /> parmarrutvik1807@gmail.com</h1>
                                 <h1 className='mt-2 items-center lg:text-sm text-xs flex justify-center text-start'><IoCall fontSize={15} className='mr-1 text-green-500' />+91 8141971488</h1>
                                 <h1 className='mt-2 items-center lg:text-sm text-xs flex justify-center text-start'><FaWhatsappSquare fontSize={15} className='mr-1 text-green-500' />+91 8141971488</h1>
