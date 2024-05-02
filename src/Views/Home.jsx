@@ -5,7 +5,6 @@ import { GrInstagram } from "react-icons/gr";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { PiArrowFatLinesRightFill } from "react-icons/pi";
-import { MdOutlineContacts } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
